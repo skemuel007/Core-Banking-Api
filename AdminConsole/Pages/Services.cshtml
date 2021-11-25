@@ -1,0 +1,21 @@
+﻿@page
+@model AdminConsole.Pages.ServicesModel
+@{
+    ViewData["Title"] = "Services";
+}
+
+<h2>Services</h2>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<div class="sidenav">
+    <a href="#">Sms</a>
+    <a href="#">Savings Interest</a>
+    <a href="#">Cot</a>
+    <a href="#">Sweep</a>
+    <a href="#">Fixed Deposit Accrued</a>
+    <a href="#">Placement Accrued</a>
+    <a href="#">Session Management</a>
+</div>

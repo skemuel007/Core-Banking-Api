@@ -1,0 +1,62 @@
+﻿@page
+@model AliasWebApiCore.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<div class="container">
+    <form method="post">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Logged In Users (@Model.UserCount)</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active container" id="home">
+                <div class="row">
+                    @foreach (var userdetails in Model.LoggedInUsers)
+                    {
+                        <div class="col-md-3 card border border-3 border-info" style="width: 200px; float: left">
+                            <div class="card-body">
+                                <h4 class="card-title">@userdetails.UserName</h4>
+                                <p class="card-text">Last Logout</p>
+                                <p class="card-text">@userdetails.LastLogOut</p>
+                                <p class="card-text">Login Time</p>
+                                <p class="card-text">@userdetails.LoginTime</p>
+                                @*<a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#demo">Token</a>*@
+                                <Button asp-route-data="@userdetails.UserName" asp-page-handler="post"  class="btn btn-danger btn-sm">Logout</Button>
+                            </div>
+                        </div>
+                        <!-- The Modal -->
+                        @*<div class="modal fade" id="demo">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Token</h4>
+
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    @*<div class="modal-body">
+                                            @userdetails.Token
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>*@
+                    }
+                </div>
+            </div>
+        </div>
+       
+    </form>
+
+</div>

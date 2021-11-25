@@ -1,0 +1,112 @@
+﻿@page
+@using Microsoft.CodeAnalysis.CSharp.Syntax
+@model AliasWebApiCore.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf*@
+@{
+    Layout = null;
+}
+
+@*@functions{
+    public string GetAntiXsrfRequestToken()
+    {
+        return Xsrf.GetAndStoreTokens(Model.HttpContext).RequestToken;
+    }
+}*@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    @*<link href="~/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />*@
+    @*<script>
+        $(function () {
+
+            $(".logout").click(function(e) {
+                e.preventDefault();
+                var t = '@GetAntiXsrfRequestToken()';
+                $.ajax({
+                    url: $(this).attr("formaction"),
+                    headers:
+                    {
+                        "RequestVerificationToken": t
+                    },
+                    type: "POST",
+                    data: { data: 'foo2' }
+                }).done(function(data) {
+                    console.log(data);
+                }).fail(function(a, v, e) {
+                    alert(e);
+                });
+            });
+        })
+    </script>*@
+</head>
+<body>
+<form method="post">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Logged In Users (@Model.UserCount)</a>
+            </li>
+            @*<li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Roles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+                </li>*@
+        </ul>
+
+        <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane active container" id="home">
+            <table class="table table-responsive">
+                <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Last Log Out</th>
+                    <th>Login Time</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                @if (@Model.UserCount == 0)
+                {
+                    <tr>
+                        <td>No Logged In Users</td>
+                    </tr>
+                }
+                @foreach (LogDetails userdetails in Model.LoggedInUsers)
+                {
+                    <tr>
+                        <td><span>@userdetails.Username</span></td>
+                        <td><span>@userdetails.LastLogOut</span></td>
+                        <td><span>@userdetails.LogInTime</span></td>
+                        <td><button class="btn btn-danger btn-sm" asp-route-data="@userdetails.Username" type="submit" >Logout</button></td>
+                    </tr>
+                }
+
+                </tbody>
+            </table>
+        </div>
+        @*<div class="tab-pane container" id="menu1">...</div>
+                <div class="tab-pane container" id="menu2">...</div>*@
+    </div>
+    
+    @*<div class="alert alert-success">
+        <strong>Successful!</strong> Log out Successfull
+    </div>*@
+
+</form>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+@*<script src="~/jquery/dist/jquery.min.js"></script>
+<script src="~/bootstrap/dist/js/bootstrap.min.js"></script>*@
+</body>
+</html>

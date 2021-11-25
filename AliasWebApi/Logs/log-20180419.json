@@ -1,0 +1,72 @@
+{"Timestamp":"2018-04-19T10:20:56.7395808+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T10:20:58.0034839+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T10:20:58.2173846+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2630395+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2664337+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2666760+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2667844+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2669248+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2688657+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2690390+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:20:58.2691441+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T10:22:52.3759202+00:00","Level":"Information","MessageTemplate":"User dennis logged in","Properties":{"SourceContext":"AliasWebApiCore.Controllers.UserAccountsController","ActionId":"ee05336f-1d1e-4fa5-8bbb-05ed01156e02","ActionName":"AliasWebApiCore.Controllers.UserAccountsController.Login (AliasWebApiCore)","RequestId":"0HLD5RU07OIQJ:00000001","RequestPath":"/api/login"}}
+{"Timestamp":"2018-04-19T13:09:48.4434875+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:09:49.4478719+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:09:49.6675947+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6953071+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6969011+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6970690+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6971630+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6973421+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6995002+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6996726+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:49.6998073+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:09:51.6473561+00:00","Level":"Information","MessageTemplate":"1 servers were removed due to timeout","Properties":{"SourceContext":"Hangfire.Server.ServerWatchdog"}}
+{"Timestamp":"2018-04-19T13:11:37.1302816+00:00","Level":"Information","MessageTemplate":"User support logged in","Properties":{"SourceContext":"AliasWebApiCore.Controllers.UserAccountsController","ActionId":"8f509601-0728-448d-aa8e-93faa7a70964","ActionName":"AliasWebApiCore.Controllers.UserAccountsController.Login (AliasWebApiCore)","RequestId":"0HLD5US944GVB:00000001","RequestPath":"/api/login"}}
+{"Timestamp":"2018-04-19T13:22:24.6761140+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:22:24.9276413+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:22:24.9898122+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:24.9992083+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0002823+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0004396+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0005110+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0006157+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0015488+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0016157+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:22:25.0016567+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:30.5094118+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:24:31.7854127+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T13:24:31.9058697+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9211184+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9227133+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9229005+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9229777+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9231029+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9245008+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9246252+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:24:31.9246958+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T13:29:36.0464019+00:00","Level":"Information","MessageTemplate":"2 servers were removed due to timeout","Properties":{"SourceContext":"Hangfire.Server.ServerWatchdog"}}
+{"Timestamp":"2018-04-19T13:32:40.0101974+00:00","Level":"Warning","MessageTemplate":"Heartbeat took longer than \"{interval}\" at \"{now}\".","Properties":{"interval":"00:00:01","now":"2018-04-19T13:32:39.4579759+00:00","EventId":{"Id":22},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel"}}
+{"Timestamp":"2018-04-19T15:02:10.0034274+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T15:02:10.8662488+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T15:02:11.0760622+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0905970+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0922165+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0924062+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0925162+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0926878+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0942293+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0943525+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:11.0944375+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:02:12.1256508+00:00","Level":"Information","MessageTemplate":"1 servers were removed due to timeout","Properties":{"SourceContext":"Hangfire.Server.ServerWatchdog"}}
+{"Timestamp":"2018-04-19T15:10:49.8915776+00:00","Level":"Information","MessageTemplate":"Start installing Hangfire SQL objects...","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T15:10:51.5551989+00:00","Level":"Information","MessageTemplate":"Hangfire SQL objects installed.","Properties":{"SourceContext":"Hangfire.SqlServer.SqlServerStorage"}}
+{"Timestamp":"2018-04-19T15:10:51.8179094+00:00","Level":"Information","MessageTemplate":"Starting Hangfire Server","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8355227+00:00","Level":"Information","MessageTemplate":"Using job storage: 'SQL Server: DESKTOP-T4AVCSO@Alias_DB'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8373550+00:00","Level":"Information","MessageTemplate":"Using the following options for SQL Server job storage:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8375668+00:00","Level":"Information","MessageTemplate":"    Queue poll interval: 00:00:15.","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8376653+00:00","Level":"Information","MessageTemplate":"Using the following options for Hangfire Server:","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8378205+00:00","Level":"Information","MessageTemplate":"    Worker count: 20","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8395558+00:00","Level":"Information","MessageTemplate":"    Listening queues: 'default'","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8400623+00:00","Level":"Information","MessageTemplate":"    Shutdown timeout: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
+{"Timestamp":"2018-04-19T15:10:51.8404593+00:00","Level":"Information","MessageTemplate":"    Schedule polling interval: 00:00:15","Properties":{"SourceContext":"Hangfire.BackgroundJobServer"}}
